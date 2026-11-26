@@ -31,3 +31,9 @@ body {
     color: black;
     /* background-color: white; */
 }
+
+.md-typeset {
+  font-size: 1.05rem; /* 默认通常为 0.8rem 左右，可根据需求调整为 1.0rem - 1.2rem */
+  /* line-height: 1.8; */
+  /* 适当增加行间距，防止墨水屏文字拥挤 */
+}
