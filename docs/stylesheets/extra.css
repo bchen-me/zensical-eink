@@ -1,0 +1,33 @@
+/* 关闭 Header 和 Sidepanel 的高斯模糊，并使用纯色不透明背景 */
+.md-header,
+.md-sidebar--primary {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  background-color: white;
+}
+
+/* 移动端/窄屏展开抽屉时的遮罩背景也去除模糊（可选） */
+.md-overlay {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  background-color: transparent;
+}
+
+.md-top,
+.md-sidebar--secondary .md-sidebar-button {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  background-color: white;
+}
+
+:root > * {
+  --md-shadow-z1: 0 0 0 1px black;
+  --md-shadow-z2: 0 0 0 1px black;
+  --md-shadow-z3: 0 0 0 1px black;
+}
+
+body {
+    font-weight: 700;
+    color: black;
+    /* background-color: white; */
+}
